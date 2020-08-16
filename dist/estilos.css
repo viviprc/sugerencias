@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #9370db;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+#mostrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    padding: 20px;
+    margin: 0;
+}
+button {
+    width: 150px;
+    height: 30px;
+    color: #9370db;
+}
